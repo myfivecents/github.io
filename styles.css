@@ -14,10 +14,12 @@ img {
     margin: auto;
 }
 
-.h1 {
+h1 {
     display: block;
     margin: auto;
+    text-align: center;
+}
 
-.h2 {
+h2 {
     text-align: center;
 }
