@@ -37,3 +37,8 @@ h2 {
     color: #bdc3c7;
     text-align: center;
 }
+
+.main-content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
