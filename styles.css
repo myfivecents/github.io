@@ -1,11 +1,12 @@
 * {
     font-family: 'Yantramanav', sans-serif;
-    color: #bdc3c7;
-    background-color: #2c3e50;
+    color: black;
+    background-color: #ececec;
+    font-weight: bold;
 }
 body {
-    background-color: #2c3e50;
-    
+    background-color: #ececec;
+    font-weight: bold;
 }
 
 img {
@@ -13,32 +14,118 @@ img {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
-    border: 5px solid #bdc3c7;
+    border: 3px solid black;
     display: block;
     margin: auto;
 }
 
 h1 {
     font-family: 'Yantramanav', sans-serif;
-    color: #bdc3c7;
+    color: black;
     margin: auto;
     display: block;    
     text-align: center;
+    font-weight: bold;
+    
 }
 
 h2 {
     font-family: 'Yantramanav', sans-serif;
-    color: #bdc3c7;
+    color: black;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 .center {
     font-family: 'Yantramanav', sans-serif;
-    color: #bdc3c7;
+    color: black;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 .main-content {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax_bottom { 
+    /* The image used */
+    background-image: url("img/sitting_under_bridge.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gray {
+    background-color: #778899;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.black {
+    color: #ececec;
+    background-color: #ececec;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.parallax_top {
+    /* The image used */
+    background-image: url("img/columbus_skyline.jpg");
+    
+        /* Set a specific height */
+        height: 500px; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#name {
+    padding-bottom: 20px;
+}
+
+#name_size {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.fa {
+    font-size: 3em;
+    padding-right: 10px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+#resume {
+    font-size: 2em;
+    font-weight: bold;
 }
